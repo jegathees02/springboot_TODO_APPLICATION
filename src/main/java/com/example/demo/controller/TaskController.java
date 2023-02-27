@@ -1,4 +1,4 @@
-package com.example.demo.Controller;
+package com.example.demo.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -13,9 +13,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.Models.Task;
-import com.example.demo.Repository.TaskRepository;
-import com.example.demo.Service.TaskService;
+import com.example.demo.models.Task;
+import com.example.demo.repository.TaskRepository;
+import com.example.demo.service.TaskService;
 
 @RestController
 public class TaskController {
